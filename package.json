@@ -1,0 +1,34 @@
+{
+  "name": "weather_cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Tanu",
+  "license": "ISC",
+  "homepage": "https://some-address.com",
+  "repository": {
+    "type": "git",
+    "url": "https://some-address.com"
+  },
+  "bugs": {
+    "url": "https://some-address.com",
+    "email": "some-address@y.ru"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "dedent-js": "^1.0.1"
+  }
+}
